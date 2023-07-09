@@ -1,0 +1,37 @@
+body {
+  font-family: Roboto;
+  background: #fff;
+}
+.web-color {
+  color: #4d5ae5;
+}
+.nav-menu {
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.nav-items a {
+  color: #2e2f42;
+}
+.nav-items a:hover {
+  color: #404bbf;
+}
+.address-items a {
+  color: #434455;
+}
+.address-items a:hover {
+  color: #404bbf;
+}
+.order-button {
+  background-color: #4d5ae5;
+  color: #fff;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
