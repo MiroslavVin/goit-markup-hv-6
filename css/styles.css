@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--background-color #ffffff);
+  background-color: var(--background-color);
 }
 :root {
   --background-color: #ffffff;
@@ -38,7 +38,7 @@ body {
 }
 
 .nav-item-link {
-  color: var(--text-color #2e2f42);
+  color: var(--text-color);
 }
 .nav-item {
   color: var(--text-color #2e2f42);
