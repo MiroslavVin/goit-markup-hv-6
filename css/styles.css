@@ -37,6 +37,9 @@ body {
   list-style: none;
 }
 
+.nav-item-link {
+  color: var(--text-color #2e2f42);
+}
 .nav-item {
   color: var(--text-color #2e2f42);
   font-family: Roboto;
