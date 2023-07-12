@@ -1,10 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455
-  background-color: var(#fff);
+  color: #434455;
+  background-color: var(--background-color #ffffff);
 }
 :root {
-  --background-color: #fff;
+  --background-color: #ffffff;
   --text-color: #2e2f42;
   --paragraph-color: #434455;
   --footer-text-color: #f4f4fd;
@@ -178,8 +178,6 @@ body {
 .logo-footer {
   color: #f4f4fd;
 }
-
-
 
 .filters-title {
   visibility: hidden;
