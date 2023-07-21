@@ -366,7 +366,7 @@ ol {
   justify-content: center;
 }
 .filters-item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
   flex-shrink: 0;
 }
 .filters-list {
