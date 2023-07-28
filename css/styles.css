@@ -566,8 +566,8 @@ ol {
   flex-wrap: wrap;
 }
 
-.filters-link:hover,
-.filters-link:focus {
+.portfolio-cover-text .filters-link :hover,
+.portfolio-cover-text.filters-link:focus {
   transform: translateY(0%);
 }
 
