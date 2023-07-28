@@ -386,10 +386,10 @@ ol {
 
 .footer-items {
   display: flex;
+  align-items: baseline;
 }
-
-.social-media {
-  margin-left: 120px;
+.footer-container {
+  margin-right: 120px;
 }
 
 .social-footer-title {
