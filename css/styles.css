@@ -478,7 +478,8 @@ ol {
   border: 1px solid var(--cornflower, #e7e9fc);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-fiters-item {
@@ -520,6 +521,10 @@ ol {
   gap: 24px;
   margin-bottom: 72px;
   justify-content: center;
+}
+.filters-link {
+  display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters-item {
   width: calc((100% - 48px) / 3);
@@ -576,8 +581,8 @@ ol {
 
 */
 
-.filters-item:hover,
-.filters-item:focus {
+.filters-item a:hover,
+.filters-item a:focus {
   border: 1px solid var(--cloud, #f4f4fd);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -660,6 +665,7 @@ ol {
 }
 .after-studio {
   color: var(--nav-color);
+  color: #404bbf;
 }
 .after-portfolio::after {
   content: "";
@@ -667,7 +673,7 @@ ol {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-
+  background: var(--nav-color);
   color: #404bbf;
   display: block;
   position: absolute;
