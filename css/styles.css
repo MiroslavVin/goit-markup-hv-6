@@ -721,3 +721,6 @@ ol {
   left: 0;
   bottom: -1px;
 }
+.after-portfolio {
+  color: var(--nav-color);
+}
