@@ -783,25 +783,9 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-  justify-content: center;
   margin-bottom: 16px;
 }
 
-.label-text {
-  color: var(--light-slate, #8e8f99);
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.04em;
-}
-
-.modal-input {
-  position: relative;
-}
-
-.label-iqon {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
+.modal-div {
+  margin-bottom: 8px;
 }
