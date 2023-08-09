@@ -1,0 +1,31 @@
+/* @media 1168 
+.feature-list
+gap 24
+no column
+*/
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 396px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 355px;
+    /* margin: 0; */
+  }
+  .feature-title {
+    /* justify-content: start; */
+  }
+  .feature-list {
+    flex-direction: unset;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+  }
+  .feature-items {
+    min-width: 350px;
+
+    width: calc((100% - 44px) / 2);
+  }
+}
